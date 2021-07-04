@@ -35,15 +35,15 @@ or open python, and run the following line of code to pull the information direc
 ```python
     pip install -r (your path here)/requirements.txt
 ```
-![Pulling Required Technologies from file](../images/pip_requirements_txt.png)
+![Pulling Required Technologies from file](https://github.com/AndrewAu42/Loan-Qualifier/blob/main/images/pip_requirements_txt.png)
 
 ---
 
 ## Examples of Application
 
-![Successful Loan:](../images/success_qualifying_loans.png)
+![Successful Loan:](https://github.com/AndrewAu42/Loan-Qualifier/blob/main/images/success_qualifying_loans.png)
 
-![Unsuccessful Loan instance:](../images/failure_qualifying_loans.png)
+![Unsuccessful Loan instance:](https://github.com/AndrewAu42/Loan-Qualifier/blob/main/images/failure_qualifying_loans.PNG)
 
 ---
 
@@ -55,7 +55,7 @@ run **app.py** wit the follow code line in python:
 ```python
 python app.py
 ```
-![Running Application](../images/running_application.png)
+![Running Application](https://github.com/AndrewAu42/Loan-Qualifier/blob/main/images/running_application.png)
 
 ---
 
