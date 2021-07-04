@@ -25,13 +25,14 @@ Open python, and run the following lines in the command prompt:
     pip install questionary
     pip install pytest
 
+or open python, and run the following line of code to pull the information directly from the requirements.txt file:
+    pip install -r (your path here)/requirements.txt
 ** need to add images here from ../image/(insert image here)
 
 ---
 
 ## Examples
 
-This section should include screenshots, code blocks, or animations showing how your project works.
 
 ** need to add images here from ../image/(insert image here)
 
@@ -39,8 +40,7 @@ This section should include screenshots, code blocks, or animations showing how 
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
-In order to run the application for loan qualifications, clone the repository from here:
+In order to run the application for loan qualifications, clone the repository from here: "https://github.com/AndrewAu42/Loan-Qualifier.git"
 
 run **app.py** wit the follow code line in python:
 python app.py
@@ -56,5 +56,7 @@ Modified and updated by Andrew Au, with provided code from 2021 Rice FinTech Boo
 ---
 
 ## License
+
+MIT License
 
 
