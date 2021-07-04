@@ -11,7 +11,7 @@ import fire
 import questionary
 from pathlib import Path
 
-from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import load_csv, save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -23,7 +23,7 @@ from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 
-
+#function that utilizes the updates of the information from the csv file
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
 
@@ -38,7 +38,7 @@ def load_bank_data():
 
     return load_csv(csvpath)
 
-
+#verifys the applicants information from the questions provided
 def get_applicant_info():
     """Prompt dialog to get the applicant's financial information.
 
@@ -60,7 +60,7 @@ def get_applicant_info():
 
     return credit_score, debt, income, loan_amount, home_value
 
-
+# this double checks the qualifying information based on the data provided
 def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_value):
     """Determine which loans the user qualifies for.
 
@@ -101,15 +101,26 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-
+#safe and verify the qualifying loans
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    if not qualifying_loans:
+        sys.exit("Sadly there isn't any available qualifying loans.")
+    #this forces an exit if there isn't available information
+
+    save_files = questionary.confirm("Would you like to save the qualifying loan information?").ask()
+
+    if save_files:
+        csvpath = questionary.text(
+            "Please enter a save location/filepath for the information to be saved: (qualifying_loans.csv)"
+        ).ask()
+        save_csv(Path(csvpath),qualifying_loans)
+    
+    #if loop that verify's the save location of the information if asked upon
 
 
 def run():

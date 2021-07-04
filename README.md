@@ -1,6 +1,6 @@
 # Loan Qualifier 
 
-Due to the requested updates and changes to the business requirements, this is a business application that will facilitate with verifying individuals and data for a Loan Application. This is to be in line for a startup for a lending service, and will focus mainly  on large quantities of potential lenders. 
+Due to the requested updates and changes to the business requirements, this is a business application that will facilitate with verifying individuals and data for a Loan Application. This is to be in line for a startup for a lending service, and will focus mainly  on large quantities of potential lenders. A csv file titled 'daily_rate_sheet' will provide the proper loan data with further questions to verify loan status, and returning information that relates to qualifying loans. 
 
 ---
 
@@ -18,7 +18,14 @@ These can be found and referenced to run the application in the requirements.txt
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Please double check before running the application, you need to be sure to install the above mentioned technologies. 
+
+Open python, and run the following lines in the command prompt:
+    pip install fire
+    pip install questionary
+    pip install pytest
+
+** need to add images here from ../image/(insert image here)
 
 ---
 
@@ -26,20 +33,28 @@ In this section, you should include detailed installation notes containing code 
 
 This section should include screenshots, code blocks, or animations showing how your project works.
 
+** need to add images here from ../image/(insert image here)
+
 ---
 
 ## Usage
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
+In order to run the application for loan qualifications, clone the repository from here:
+
+run **app.py** wit the follow code line in python:
+python app.py
+
+** need to add images here from ../image/(insert image here)
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
+Modified and updated by Andrew Au, with provided code from 2021 Rice FinTech Bootcamp. 
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify others what they can and can not do with your source code and files. Use this section to include the licence you want to use.
+
