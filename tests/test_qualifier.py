@@ -32,7 +32,7 @@ def test_save_csv():
         ]
     )
 
-    asset csvoutput.exists()
+    assert csvoutput.exists()
     # Use Path from pathlib to output the test csv to ./data/output/qualifying_loans.csv
 
 def test_calculate_monthly_debt_ratio():

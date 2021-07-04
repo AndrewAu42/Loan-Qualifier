@@ -8,9 +8,11 @@ Due to the requested updates and changes to the business requirements, this is a
 
 Currently this requires use of Python 3.8, and the following packages:
 
+```python
 fire==0.3.1
 questionary==1.5.2
 pytest==5.4.2
+```
 
 These can be found and referenced to run the application in the requirements.txt file to run and reference. 
 
@@ -21,12 +23,19 @@ These can be found and referenced to run the application in the requirements.txt
 Please double check before running the application, you need to be sure to install the above mentioned technologies. 
 
 Open python, and run the following lines in the command prompt:
+
+```python
     pip install fire
     pip install questionary
     pip install pytest
+```
 
 or open python, and run the following line of code to pull the information directly from the requirements.txt file:
+
+```python
     pip install -r (your path here)/requirements.txt
+```
+
 ** need to add images here from ../image/(insert image here)
 
 ---
@@ -51,7 +60,7 @@ python app.py
 
 ## Contributors
 
-Modified and updated by Andrew Au, with provided code from 2021 Rice FinTech Bootcamp. 
+Modified and updated by Andrew Au, with provided code from 2021 Rice FinTech Bootcamp. Hope this facilitates with the decision process for the end user.  
 
 ---
 
