@@ -35,26 +35,27 @@ or open python, and run the following line of code to pull the information direc
 ```python
     pip install -r (your path here)/requirements.txt
 ```
-
-** need to add images here from ../image/(insert image here)
+![Pulling Required Technologies from file](../images/pip_requirements_txt.png)
 
 ---
 
-## Examples
+## Examples of Application
 
+![Successful Loan:](../images/success_qualifying_loans.png)
 
-** need to add images here from ../image/(insert image here)
+![Unsuccessful Loan instance:](../images/failure_qualifying_loans.png)
 
 ---
 
 ## Usage
 
-In order to run the application for loan qualifications, clone the repository from here: "https://github.com/AndrewAu42/Loan-Qualifier.git"
+In order to run the application for loan qualifications, clone the repository from here: https://github.com/AndrewAu42/Loan-Qualifier.git
 
 run **app.py** wit the follow code line in python:
+```python
 python app.py
-
-** need to add images here from ../image/(insert image here)
+```
+![Running Application](../images/running_application.png)
 
 ---
 
