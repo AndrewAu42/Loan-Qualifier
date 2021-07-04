@@ -41,8 +41,10 @@ or open python, and run the following line of code to pull the information direc
 
 ## Examples of Application
 
+Successful Qualifying Loans Case: 
 ![Successful Loan:](https://github.com/AndrewAu42/Loan-Qualifier/blob/main/images/success_qualifying_loans.PNG)
 
+Failure Case for qualifying Loans: 
 ![Unsuccessful Loan instance:](https://github.com/AndrewAu42/Loan-Qualifier/blob/main/images/failure_qualifying_loans.PNG)
 
 ---
