@@ -1,12 +1,18 @@
-# Project Title
+# Loan Qualifier 
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+Due to the requested updates and changes to the business requirements, this is a business application that will facilitate with verifying individuals and data for a Loan Application. This is to be in line for a startup for a lending service, and will focus mainly  on large quantities of potential lenders. 
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+Currently this requires use of Python 3.8, and the following packages:
+
+fire==0.3.1
+questionary==1.5.2
+pytest==5.4.2
+
+These can be found and referenced to run the application in the requirements.txt file to run and reference. 
 
 ---
 
